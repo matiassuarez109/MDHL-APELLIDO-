@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.a{
+    height: 2000px;
+    font-family: cursive;
+    color: gray;
+}
+
+.logo{
+    position: absolute;
+    right: 100px;
+}
+main{
+    width: 50%;
+    position: absolute;
+    left: 200px;
+    top: 500px; 
+}
+img{
+    max-width: 100%;
+}
+nav > a{
+    text-decoration: none;
+    background-color: rgb(114, 114, 236);
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: Tahoma ;
+    box-shadow: 3px 3px 3px grey;
+}
+nav >a:hover {
+    background-color: rgb(136, 241, 136);
+
+}
+nav,.logo{
+    position: fixed;
+    top: 150px;
+}
+.a{
+    position: absolute;
+    top: 400px;
+    left: 5px;
+    border: 0px;
+    width: 1250px;
+    text-align: center;
+}
+header{
+    font-family:Tahoma;
+    text-align: center;
+}
+h1{
+    position: relative;
+    top: 20px;
+    background-image: url(./img1/hockey_2.jpg);
+    height: 1300px;
+    background-position: 80%;
+    font-size: 77px;
+}
