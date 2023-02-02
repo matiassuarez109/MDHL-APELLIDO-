@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: cursive;
 }
 img{
     max-width: 100%;
@@ -59,7 +60,7 @@ header{
 h1{
     position: relative;
     top: 20px;
-    background-image: url(./img1/hockey_2.jpg);
+    background-image: url(./assets/hockey_2.jpg);
     height: 1300px;
     background-position: 80%;
     font-size: 77px;
