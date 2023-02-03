@@ -4,19 +4,17 @@
     box-sizing: border-box;
     font-family: cursive;
 }
-img{
-    max-width: 100%;
-    max-height: 100%;
-}
-.a{
-    height: 2000px;
+.banner{
+    position: absolute;
+    top: 400px;
     font-family: cursive;
     color: gray;
+    left: 500px;
 }
 
 .logo{
     position: absolute;
-    right: 100px;
+    right: 80px;
 }
 main{
     width: 50%;
@@ -24,10 +22,8 @@ main{
     left: 200px;
     top: 500px; 
 }
-img{
-    max-width: 100%;
-}
 nav > a{
+    width: 100%;
     text-decoration: none;
     background-color: rgb(114, 114, 236);
     color: white;
@@ -50,7 +46,7 @@ nav,.logo{
     top: 400px;
     left: 5px;
     border: 0px;
-    width: 1250px;
+    width: 100%;
     text-align: center;
 }
 header{
@@ -64,4 +60,44 @@ h1{
     height: 1300px;
     background-position: 80%;
     font-size: 77px;
+    width: 100%;
+}
+table{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+tr>td{
+    background-color: rgb(42, 158, 235);
+    margin: 1px;
+    padding: 10px;
+}
+.par{
+    display: flex;
+}
+.img1{
+    position: absolute;
+    right: 230px;
+    top: 400px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 50px;
+}
+.img2{
+    position: absolute;
+    right: 230px;
+    top: 800px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 50px;
+}
+.img3{
+    position: absolute;
+    right: 230px;
+    top: 1120px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 50px;
+}
+.under{
+    text-decoration: underline;
 }
