@@ -1,10 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: cursive;
 }
-.banner{
+
+.banner {
     position: absolute;
     top: 400px;
     font-family: cursive;
@@ -12,17 +13,19 @@
     left: 500px;
 }
 
-.logo{
+.logo {
     position: absolute;
     right: 80px;
 }
-main{
+
+main {
     width: 50%;
     position: absolute;
     left: 200px;
-    top: 500px; 
+    top: 500px;
 }
-nav > a{
+
+nav>a {
     width: 100%;
     text-decoration: none;
     background-color: rgb(114, 114, 236);
@@ -30,18 +33,21 @@ nav > a{
     margin: 10px;
     padding: 20px;
     border-radius: 50px;
-    font-family: Tahoma ;
+    font-family: Tahoma;
     box-shadow: 3px 3px 3px grey;
 }
-nav >a:hover {
-    background-color: rgb(136, 241, 136);
 
+nav>a:hover {
+    background-color: rgb(136, 241, 136);
 }
-nav,.logo{
+
+nav,
+.logo {
     position: fixed;
     top: 150px;
 }
-.a{
+
+.a {
     position: absolute;
     top: 400px;
     left: 5px;
@@ -49,11 +55,13 @@ nav,.logo{
     width: 100%;
     text-align: center;
 }
-header{
-    font-family:Tahoma;
+
+header {
+    font-family: Tahoma;
     text-align: center;
 }
-h1{
+
+.title {
     position: relative;
     top: 20px;
     background-image: url(./assets/hockey_2.jpg);
@@ -62,42 +70,222 @@ h1{
     font-size: 77px;
     width: 100%;
 }
-table{
+
+table {
     display: flex;
     justify-content: center;
     padding: 10px;
     margin-top: 50px;
 }
 
-tr>td{
+tr>td {
     background-color: rgb(42, 158, 235);
     margin: 1px;
     padding: 10px;
 }
-.par{
-    display: flex;
-}
-.img1{
+
+.img1 {
     position: absolute;
     right: 230px;
     top: 400px;
     box-shadow: 5px 5px 5px gray;
     border-radius: 50px;
 }
-.img2{
+
+.img2 {
     position: absolute;
     right: 230px;
     top: 800px;
     box-shadow: 5px 5px 5px gray;
     border-radius: 50px;
 }
-.img3{
+
+.img3 {
     position: absolute;
     right: 230px;
     top: 1120px;
     box-shadow: 5px 5px 5px gray;
     border-radius: 50px;
 }
-.under{
+
+.under {
     text-decoration: underline;
+}
+
+.footer {
+    position: absolute;
+    top: 600pxpx;
+}
+
+iframe {
+    display: none;
+}
+
+.mapa {
+    color: rgb(229, 255, 0);
+}
+
+.mapa:hover>iframe {
+    display: block;
+    position: absolute;
+    right: 15%;
+    height: 29%;
+    outline: 1px solid black;
+
+}
+
+.mapa1 {
+    color: rgb(229, 255, 0);
+}
+
+.mapa1:hover>iframe {
+    display: block;
+    position: absolute;
+    right: 15%;
+    height: 29%;
+    outline: 1px solid black;
+}
+
+.mapa2 {
+    color: rgb(229, 255, 0);
+}
+
+.mapa2:hover>iframe {
+    display: block;
+    position: absolute;
+    right: 15%;
+    height: 29%;
+    outline: 1px solid black;
+}
+
+.mapa3 {
+    color: rgb(229, 255, 0);
+}
+
+.mapa3:hover>iframe {
+    display: block;
+    position: absolute;
+    right: 15%;
+    height: 29%;
+    outline: 1px solid black;
+}
+
+.mapa4 {
+    color: rgb(229, 255, 0);
+}
+
+.mapa4:hover>iframe {
+    display: block;
+    position: absolute;
+    right: 15%;
+    height: 29%;
+    outline: 1px solid black;
+}
+
+.mapa5 {
+    color: rgb(229, 255, 0);
+}
+
+.mapa5:hover>iframe {
+    display: block;
+    position: absolute;
+    right: 15%;
+    height: 29%;
+    outline: 1px solid black;
+
+}
+
+form {
+    background-color: rgb(185, 147, 90);
+    position: absolute;
+    text-align: center;
+    width: 80vw;
+}
+
+fieldset {
+    width: 75vw;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.titulo {
+    font-size: 60px;
+}
+
+.botton {
+    position: absolute;
+    top: 400px;
+    left: 350px;
+}
+
+@media only screen and (max-width:1024px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .img1,
+    .img2,
+    .img3 {
+        position: absolute;
+        right: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    main {
+        position: absolute;
+        left: 20px;
+    }
+
+    nav>a {
+        float: left;
+        width: 25%;
+        text-align: center;
+
+    }
+
+    .logo {
+        position: absolute;
+        top: 300px;
+        left: 100px;
+    }
+
+    h1 {
+        padding: 0;
+        margin: 0;
+        height: 1700px;
+    }
+
+    .banner {
+        position: absolute;
+        left: 300px;
+        color: black;
+    }
+
+    .botton {
+        position: absolute;
+        top: 200px;
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width:375) {
+
+    .img1,
+    .img2,
+    .img3 {
+        width: 20%;
+        height: 10%;
+    }
+
+    nav>a {
+        width: 5%;
+        text-align: center;
+    }
 }

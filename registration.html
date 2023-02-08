@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/Logo_Mighty_ducks-01.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style3.css">
+    <title>MIGHTY_DUCKS</title>
+</head>
+
+<body>
+    <header class="titulo">
+        <h1>Mighty Ducks Hockey League</h1>
+    </header>
+    <nav class="botton">
+        <a href="./index.html">Home</a>
+        <a href="./AboutMDHL.html">About MDHL</a>
+        <a href="./Contact.html">Contact</a>
+        <a href="./rules.html">Rules</a>
+        <a href="./game_info.html">Games Info</a>
+        <a href="#">Registration</a>
+    </nav>
+    <main class="registro">
+        <form action="./show_data.html" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="Firstname">Player's First Name:</label>
+                <input type="text" name="Firstname" id="Firstname" required />
+                <label for="Lastname"> Last Name: </label>
+                <input type="text" name="Lastname" id="Lastname" required />
+                <label for="Street"> Street Adress:</label>
+                <input type="text" name="Street" id="Street" required />
+                <label for="City"> City:</label>
+                <input type="text" name="City" id="City" required />
+                <label for="ZipCode">Zip Code: </label>
+                <input type="text" name="ZipCode" id="ZipCode" required />
+                <label for="Date"> Birth Date:</label>
+                <input type="Date" name="Date" id="Date" required />
+            </fieldset>
+            <fieldset>
+                <legend> Gender:</legend>
+                <label for="fem"> Female</label>
+                <input type="radio" name="Gender" id="fem" value="Female" required />
+                <label for="male">Male</label>
+                <input type="radio" name="Gender" id="male" value="Male" required />
+            </fieldset>
+            
+            <fieldset>
+                <legend>Grade:</legend>
+                <label for="Pre-Scoohl">Pre-Scoohl</label>
+                <input type="radio" name="Grade" id="Pre-Scoohl" value="Pre-Scoohl" required />
+                <label for="1st"> 1st</label>
+                <input type="radio" name="Grade" id="1st" value="1st" required />
+                <label for="2nd">2nd</label>
+                <input type="radio" name="Grade" id="2nd" value="2nd" required />
+                <label for="3rd">3rd</label>
+                <input type="radio" name="Grade" id="3rd" value="3rd" required />
+                <label for="4th">4th</label>
+                <input type="radio" name="Grade" id="4th" value="4th" required />
+                <label for="5th">5th</label>
+                <input type="radio" name="Grade" id="5th" value="5th" required />
+            </fieldset>
+            <fieldset>
+                <legend>Which elementary school do you live near?</legend>
+                <label for="School"> Closest School:</label>
+                <select name="School" id="School" required>
+                    <option value="" disabled selected>Select</option>
+                    <option value="Aj Katzenmaier">Aj Katzenmaier</option>
+                    <option value="Greenbay">Greenbay</option>
+                    <option value="Howard A Yeager">Howard A Yeager</option>
+                    <option value="Marjorie P Hart">Marjorie P Hart</option>
+                    <option value="North Elementary">North Elementary</option>
+                    <option value="South Elementary">South Elementary</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    What position(s) do you normally play? (check all that apply)
+                </legend>
+                <label for="Forward">Forward</label>
+                <input type="checkbox" name="Position" id="Forward" value="Forward" />
+                <label for="Defense">Defense</label>
+                <input type="checkbox" name="Position" id="Defense" value="Defense" />
+                <label for="Midfield"> Midfield</label>
+                <input type="checkbox" name="Position" id="Midfield" value="Midfield" />
+                <label for="Goalkeeper">Goalkeeper</label>
+                <input type="checkbox" name="Position" id="Goalkeeper" value="Goalkeeper" />
+            </fieldset>
+            <fieldset>
+                <legend>Uniform Size</legend>
+                <label for="ysmall">Youth Small</label>
+                <input type="radio" name="Uniform" id="ysmall" value="Youth Small" required />
+                <label for="ymed">Youth Madium</label>
+                <input type="radio" name="Uniform" id="ymed" value="Youth Madium" required />
+                <label for="ylarge">Youth Large</label>
+                <input type="radio" name="Uniform" id="ylarge" value="Youth Large" required />
+                <label for="small">Small</label>
+                <input type="radio" name="Uniform" id="small" value="Small" required />
+                <label for="Medium">Medium</label>
+                <input type="radio" name="Uniform" id="Medium" value="Medium" required />
+                <label for="larger">Large</label>
+                <input type="radio" name="Uniform" id="larger" value="Large" required />
+                <label for="wlarge">Extra-Large</label>
+                <input type="radio" name="Uniform" id="wlarge" value="Extra-Large" required />
+            </fieldset>
+            <fieldset>
+                <legend>Permission to Play</legend>
+                <p>I, the parent or guardian of the minor registrant, agree that the
+                    registrant and I will abide by all the rules of the Mighty Ducks
+                    Hockey League (MDHL). In recognizing the possibility of physical
+                    injury associated with hockey and in consideration for the "League"
+                    accepting the registrant for its hockey programs and activities, I
+                    hereby release, discharge, and/or otherwise indemnify MDHL, their
+                    employees and associated personnel and volunteers, including the
+                    facilities used for practices and games, against any claim by or on
+                    behalf of the registrant as a result of the registrant's
+                    participation in the programand/orbing transported to or from MDHL
+                    sponsored activities,which transportation By signing below, I
+                    herebyagree andauthorizethe above. In addition, by signing below,
+                    lalso acknowledge that I have read the cancellation policy and agree
+                    to its terms.</p>
+            </fieldset>
+            <fieldset>
+                <legend>Parent/GuardianSignature</legend>
+                <label for="Name">First Name:</label>
+                <input type="text" name="FirtName" id="Name" required>
+                <label for="lame">Last Name:</label>
+                <input type="text" name="LastName" id="lame" required>
+            </fieldset>
+            <fieldset>
+                <legend>Date</legend>
+                <label for="BD">Birth Date:</label>
+                <input type="Date" name="Date" id="BD" required>
+            </fieldset>
+            <input type="submit" value="Send" />
+            <input type="reset" value="clear" />
+        </form>
+    </main>
+</body>
+
+</html>
